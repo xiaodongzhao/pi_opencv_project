@@ -12,25 +12,29 @@
 ## Install
 
 ### For Windows:
-First download and install Python from [anaconda](https://www.anaconda.com/distribution/#download-section).
+
+- download and install Python from [anaconda](https://www.anaconda.com/distribution/#download-section).
 
 ### For Linux (Ubuntu/Debian/Raspberry Pi)
 
-open a terminal, update first
+- open a terminal, update first
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-For both Windows and Linux:
+### For both Windows and Linux:
+
+- install 
 
 ```bash
 pip3 install --user numpy matplotlib jupyter notebook 
 pip3 install --user opencv-contrib-python
 ```
+- download weights for [YOLO](https://pjreddie.com/media/files/yolov3.weights) and [YOLO-tiny](https://pjreddie.com/media/files/yolov3-tiny.weights).
 
-Clone this repo to a local folder, then open a terminal in the folder and run:
+- clone this repo to a local folder, then open a terminal in the folder and run:
 
 ```
 jupyter notebook
