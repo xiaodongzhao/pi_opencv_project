@@ -1,4 +1,4 @@
-# Tutorial to use OpenCV and YOLO on Raspberry Pi
+# Use OpenCV and YOLO on Raspberry Pi
 
 ## Requirements
 
