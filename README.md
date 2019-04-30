@@ -2,20 +2,38 @@
 
 ## Requirements
 
-- Raspberry Pi Model B
+- Raspberry Pi Model B (optional)
 - Python 3
 - Numpy
 - OpenCV >= 3.4.2
 - Matplotlib
 - Jupyter notebook
 
-## Install Python packages
+## Install
+
+### For Windows:
+First download and install Python from [anaconda](https://www.anaconda.com/distribution/#download-section).
+
+### For Linux (Ubuntu/Debian/Raspberry Pi)
+
+open a terminal, update first
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
+```
+
+For both Windows and Linux:
+
+```bash
 pip3 install --user numpy matplotlib jupyter notebook 
 pip3 install --user opencv-contrib-python
+```
+
+Clone this repo to a local folder, then open a terminal in the folder and run:
+
+```
+jupyter notebook
 ```
 
 ## Connect Raspberry Pi to university wireless network 
