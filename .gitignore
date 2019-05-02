@@ -1,1 +1,3 @@
 *.weights
+records/
+.ipynb_checkpoints/
